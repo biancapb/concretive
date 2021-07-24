@@ -26,7 +26,7 @@ class AnnotationsActivity : AppCompatActivity() {
 
         private fun openIntent(context: Context, a: Annotations) {
             val intent = Intent(context, AnnotationsDetailsActivity::class.java)
-            intent.putExtra(PRODUCT_INTENT, a)
+            //intent.putExtra(PRODUCT_INTENT, a)
             context.startActivity(intent)
         }
     }

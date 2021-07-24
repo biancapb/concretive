@@ -15,6 +15,7 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name="activity.AllAnnotationsActivity" />
         <activity android:name="activity.AddAnnotationActivity" />
+        <activity android:name="activity.AnnotationsActivity"/>
         <activity android:name="activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
